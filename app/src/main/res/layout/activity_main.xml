@@ -11,7 +11,7 @@
         android:id="@+id/spScLogo"
         android:layout_width="275dp"
         android:layout_height="413dp"
-        android:src="@drawable/leaf"
+        android:src="@drawable/lion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,13 +24,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="SIMPLE PROFILE"
-        android:textColor="#5B991C"
+        android:textColor="#C4834C"
         android:textSize="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spScLogo"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
 
     <TextView
         android:id="@+id/spScFooterText"
@@ -38,13 +38,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Slogan, böyledir."
-        android:textColor="#944B7D19"
+        android:textColor="#94FFFFFF"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spScLogo"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
