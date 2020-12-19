@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SimpleProfile</string>
+    <string-array name="cities">
+        <item>Seçiniz..</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+    </string-array>
 </resources>

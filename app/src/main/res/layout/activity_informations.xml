@@ -27,7 +27,7 @@
             android:textSize="24dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/firstnameET"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="1"
@@ -56,7 +56,7 @@
             android:textSize="24dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/lastnameET"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="1"
@@ -91,14 +91,14 @@
             android:layout_weight="1" >
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/maleRB"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Erkek" />
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/femaleRB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -126,28 +126,29 @@
             android:textSize="24dp" />
 
         <LinearLayout
+            android:id="@+id/hobbiesGroup"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:orientation="vertical">
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/hobbiesTravelCB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CheckBox" />
+                android:text="Gezmek" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/hobbiesReadingCB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CheckBox" />
+                android:text="Kitap okumak" />
 
             <CheckBox
-                android:id="@+id/checkBox5"
+                android:id="@+id/hobbiesGamingCB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CheckBox" />
+                android:text="Oyun oynamak" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -169,7 +170,7 @@
             android:textSize="24dp" />
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/citiesSpinner"
             android:layout_width="match_parent"
             android:layout_height="34dp"
             android:layout_weight="1" />
@@ -193,6 +194,18 @@
             android:textColor="#0D2476"
             android:textSize="24dp" />
 
+        <EditText
+            android:id="@+id/birthdayET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:onClick="birthdayETOnClick"
+            android:textColor="#FFFFFF" />
+
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -200,9 +213,10 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/button40"
+            android:id="@+id/loginBTN"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
+            android:onClick="loginBTNOnClick"
             android:text="Giriş"
             android:textSize="24dp"
             app:layout_constraintBottom_toBottomOf="parent"
