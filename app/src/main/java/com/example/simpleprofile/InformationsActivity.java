@@ -93,7 +93,6 @@ public class InformationsActivity extends AppCompatActivity {
     public void loginBTNOnClick(View view){
         if(!isFieldsEmpty())
         {
-            Toast.makeText(this, "Welcome " + firstnameET.getText() + " " + lastnameET.getText(), Toast.LENGTH_SHORT).show();
             Profile profile = new Profile();
             profile.setFirstname(firstnameET.getText().toString());
             profile.setLastname(lastnameET.getText().toString());

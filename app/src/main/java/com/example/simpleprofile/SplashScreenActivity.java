@@ -15,7 +15,7 @@ public class SplashScreenActivity extends AppCompatActivity {
     private ImageView spScLogo;
     private TextView spScHeaderText;
     private TextView spScFooterText;
-    private static int spScTime = 7000;
+    private static int spScTime = 50;
 
     private void bindViews(){
         spScFooterText = findViewById(R.id.spScFooterText);
